@@ -1,0 +1,124 @@
+
+* {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.icons {
+    min-height: 80px;
+}
+
+.icons li {
+    display: block;
+    padding: 0.6em;
+    position: relative;
+}
+
+.single-icons li i{
+    width: 20%;
+}
+
+.single-icons li span{
+    position: absolute;
+}
+/*
+.single-icons li i:before,
+.single-icons-taxonomy li i:before{
+    color: #000;
+
+    vertical-align: middle;
+    margin-top: 10px;
+
+}
+.single-icons li i:before{
+    font-size: 2em;
+}
+.single-icons-taxonomy  li i:before{
+    font-size: 1.5em;
+}
+
+.icons li i {
+    font-size: 2em;
+    font-weight: bold;
+}*/
+
+.btn-black {
+    background-color: black;
+    color: white;
+    width: 80%;
+}
+
+.btn-black:hover {
+    color: white;
+
+}
+
+.product-info {
+    padding: 3em;
+}
+
+.single-info {
+    padding: 10px;
+    border: 1px dotted black;
+}
+
+.single-icons {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+
+}
+
+.single-icons li,
+.single-icons-taxonomy li {
+    line-height: 1.2em;
+    min-height: 50px;
+    vertical-align: center;
+    text-decoration: none;
+    padding: 10px;
+
+}
+.single-icons li{
+    position: relative; /* Helps us control overlap */
+
+
+
+.single-icons li p:after{
+    position: absolute;
+  left: 0; /* Adjust as needed */
+  top: 3px; /* Adjust as needed */
+}
+
+#double li {
+    width: 96%;
+}
+
+.lsow-flex-direction-nav > li {
+    list-style: none;
+}
+
+.single-icons-taxonomy {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.single-icons-taxonomy li {
+    display: inline;
+}
+
+.single-info {
+
+}
+.single-info h3,
+h3.gform_title{
+    background-color: black !important;
+    color:white;
+    padding:12px;
+
+}
+
+#double{
+    padding: 10px 0px;
+    background-color:red;
+}

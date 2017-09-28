@@ -1,0 +1,76 @@
+
+* {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.icons {
+  min-height: 80px;
+}
+
+.icons li {
+    display:inline;
+    padding: 0.6em;
+}
+
+
+
+.single-icons li i{
+  font-size: 4em;
+  vertical-align: middle;
+  margin-top: 10px;
+
+}
+
+.icons li i{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.btn-black{
+  background-color: black;
+  color:white;
+  width: 80%;
+}
+
+.btn-black:hover{
+  color:white;
+
+}
+
+.product-info{
+  padding:  3em;
+}
+
+.single-info{
+  padding: 10px;
+  border:1px dotted black;
+}
+
+
+.single-icons{
+
+  margin-bottom:10px;
+  overflow:hidden;
+
+}
+
+.single-icons li{
+    line-height:1.5em;
+    min-height: 50px;
+    vertical-align: center;
+    text-decoration: none;
+
+
+  padding: 10px;
+
+}
+.single-icons li p {
+
+    font-size: 1.5em;
+    float:right;
+    width:80%;
+    vertical-align: center;
+}
+
+#double li  { width:50%;}
+

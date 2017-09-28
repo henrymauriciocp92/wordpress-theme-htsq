@@ -1,0 +1,48 @@
+button, input[type="button"], input[type="reset"], input[type="submit"], .button , .form-button{
+    background-color: #319FDA;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 16px 24px;
+    width: auto;
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+.form-button {
+	color: #fff;
+	background-color: orange;    
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 16px 24px;    
+    border-radius: 10px;    
+    text-align: center;
+
+}
+
+.form-button:hover{
+	text-decoration: none;
+	color: #fff;
+	background: #c3251d;
+}
+
+
+.gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label, .gform_wrapper .field_sublabel_below div[class*=gfield_time_].ginput_container label {
+    margin: 1px 0 9px 1px;
+    display: none !important;
+}
+
+@media only screen and (min-width: 641px){
+	.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_page_footer input[type=submit] {
+	    font-size: 1em;
+	    width: 100% !important;
+	    margin: 0 16px 0 0;
+	}
+}
