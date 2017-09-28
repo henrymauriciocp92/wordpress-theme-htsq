@@ -1,3 +1,5 @@
+![screenshot](https://user-images.githubusercontent.com/29611038/30983584-69a651a2-a450-11e7-9bae-0c1c3d854d82.png)
+
 ## Template Wordpress Para Hotel Sol de Quito
 ## 30 mayo 2017
 
